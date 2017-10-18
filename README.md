@@ -22,7 +22,7 @@ A sample workflow would look similar to (armhf):
     cd ~/arm-stuff
     git clone https://github.com/offensive-security/gcc-arm-linux-gnueabihf-4.7
     export PATH=${PATH}:/root/arm-stuff/gcc-arm-linux-gnueabihf-4.7/bin
-    git clone https://github.com/offensive-security/kali-arm-build-scripts
+    git clone https://github.com/R3K1NG/kali-arm-build-scripts
     cd ~/arm-stuff/kali-arm-build-scripts
     ./build-deps.sh
     ./chromebook-arm-samsung.sh 1.0
